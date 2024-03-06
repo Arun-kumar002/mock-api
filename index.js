@@ -68,6 +68,18 @@ app.get("/api/services/fo/v1/guest/:pmsPropertyCode", async (req, res) => {
     }
 })
 
+app.put("/api/services/fo/v1/guest/:pmsPropertyCode", async (req, res) => {
+    try {
+        res.status(200).json(
+            {
+                status: "success"
+            }
+        )
+    } catch (error) {
+        console.log("[Error:refresh token]", error);
+    }
+})
+
 app.listen(5000, () => {
     console.log("server listening port 5000");
 })
