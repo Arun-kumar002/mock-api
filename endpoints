@@ -2,3 +2,4 @@ https://mock-api-3xil.onrender.com/api/services/auth/v1/token -post
 https://mock-api-3xil.onrender.com/api/services/auth/v1/token/refresh -post
 https://mock-api-3xil.onrender.com//api/services/fo/v1/guest/:pmsPropertyCode -get
 https://mock-api-3xil.onrender.com//api/services/fo/v1/guest/:pmsPropertyCode -post
+https://mock-api-3xil.onrender.com//api/services/fo/v1/guest/:pmsPropertyCode -put
